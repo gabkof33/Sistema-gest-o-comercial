@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+
+}
+
+h1{
+    margin: 20px;
+}
+
+.form-container input{
+    margin: 5px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+}
+
+.form-container button{
+    margin-top: 100px;
+    padding: 10px;
+    background-color: #79c779;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #4cae4c;
+}
+
+.list-container{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.list-container ul {
+    list-style-type:none ;
+    padding: 0;
+}
+
+.list-container li{
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-container li button{
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.list-container li button:hover{
+    background-color: #c9302c;
+}
